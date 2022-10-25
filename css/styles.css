@@ -16,27 +16,97 @@ a {
 
 /*----- Header -----*/
 
-.header {
-
-    background-color: #18A779;
-    padding: 15px;
-
+header {
+    background-color: rgb(183, 228, 181);
 }
 
-.marca {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    gap: 10px;
-
+.navbar-toggler navbar-lines{
+    width: 1px;
 }
 
-.marca__img {
-    width: 10%;
-    object-fit: cover;
+.seccion-compania__titulo {
+    text-align: center;
+    font-weight: 600;
+    margin: 15px;
+    padding: 10px;
 }
-.marca__titulo {
+
+.seccion-compania__texto {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .marca__titulo {
     font-weight: 600;
 }
 
@@ -73,7 +143,10 @@ a {
 
     }
     
-}
+} */
+
+
+
 
 /* --------Seccion Compania----- */
 
