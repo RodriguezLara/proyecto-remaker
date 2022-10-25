@@ -5,7 +5,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
-ul, ol {
+
+ul,
+ol {
     list-style: none;
 }
 
@@ -18,29 +20,92 @@ a {
 
 header {
     background-color: rgb(183, 228, 181);
+    margin: 0;
 }
 
-.navbar-toggler navbar-lines{
+.navbar-toggler navbar-lines {
     width: 1px;
+
+}
+
+/* -------Seccion compania------- */
+
+.seccion-compania {
+    margin: 0;
+    height: 50vh;
+    justify-items: center;
 }
 
 .seccion-compania__titulo {
     text-align: center;
     font-weight: 600;
-    margin: 15px;
+    margin: 0px;
     padding: 10px;
 }
+
 
 .seccion-compania__texto {
     text-align: center;
     font-weight: 400;
-    margin-top: 40px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.seccion-compania__texto--lg {
+    display: none;
+}
+
+.seccion-compania__articulo1 {
+    background-color: rgb(55, 189, 126);
     padding: 10px;
 }
 
+.seccion-compania__articulo2 {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
 
+.seccion-compania__img {
+    height: 100%;
+    object-fit: contain;
+    margin: 15px;
 
+}
 
+@media(min-width: 992px) {
+    .seccion-compania__texto--lg {
+        display: flex;
+        grid-area: seccion-compania__texto--lg;
+        text-align: center;
+
+    }
+
+    .seccion-compania {
+        margin: 0;
+        height: 60vh;
+          
+        display: grid;
+        grid-template-columns: repeat 70% 20%;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "seccion-compania__img seccion-compania__titulo"
+        "seccion-compania__img seccion-compania__texto--lg"
+        ;
+
+    }
+    .seccion-compania__img {
+        grid-area: seccion-compania__img;
+    }
+
+    .seccion-compania__titulo {
+        grid-area: seccion-compania__titulo;
+    }
+
+}
+
+/* --------Seccion Valores -------- */
 
 
 
@@ -206,7 +271,7 @@ header {
     width: 50%;
     text-align: right;
     
-} */ 
+} */
 
 
 
