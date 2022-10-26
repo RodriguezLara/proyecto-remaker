@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReMaker - Empecemos por el final</title>
     <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
@@ -22,44 +23,45 @@
 
     <header class="navbar navbar-expand-lg">
 
-        <navbar class="container-fluid ">
+        <div class="container">
 
-            <img src="./assets/images/logo-principal.png" class="navbar-brand"> </img>
+            <a class="navbar-brand" href="#"><img src="./assets/images/logo-principall.png" alt="Logo de ReMaker"
+                    class="w-50"></a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false " aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+            <nav class="collapse navbar-collapse  justify-content-lg-end " id="navbarNav">
 
                 <ul class="navbar-nav">
 
-                    <li class="nav-item m-3">
+                    <li class="nav-item my-1 text-center bg-light">
                         <a class="nav-link active" aria-current="page" href="#">Inicio
                         </a>
                     </li>
 
-                    <li class="nav-item m-3">
+                    <li class="nav-item my-1 text-center">
                         <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
                     </li>
 
-                    <li class="nav-item m-3">
+                    <li class="nav-item my-1 text-center bg-light">
                         <a class="nav-link" href="./pages/valores.html">Valores</a>
                     </li>
 
-                    <li class="nav-item m-3">
+                    <li class="nav-item my-1 text-center">
                         <a class="nav-link" href="./pages/servicios.html">Servicios</a>
                     </li>
 
-                    <li class="nav-item m-3">
+                    <li class="nav-item my-1 text-center bg-light">
                         <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                     </li>
 
                 </ul>
-            </div>
+            </nav>
 
-        </navbar>
+        </div>
 
     </header>
 
@@ -67,29 +69,36 @@
 
         <!--  seccion compania -->
 
-        <section class="seccion-compania ">
+        <section class="seccion-compania container my-3">
 
-            <article class="seccion-compania__articulo1">
+            <div class="row ">
 
-                <h2 class="seccion-compania__titulo">Nuestra Compañia</h2>
+                <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center">
+                    <h2 class="seccion-compania__titulo fw-bold text-center m-3 text-lg-start mx-lg-0 my-lg-3">Nuestra
+                        Compañia</h2>
 
-                <p class="seccion-compania__texto d-lg-none">Somos una empresa con más de 30 años de experiencia en la
-                    recuperación de
-                    envases y materias primas industriales.</p>
+                    <p class="seccion-compania__texto text-center d-lg-none">Somos una empresa con más de 30 años de
+                        experiencia en
+                        la
+                        recuperación de
+                        envases y materias primas industriales.</p>
 
-                <p class="seccion-compania__texto--lg ">Somos una empresa con más de 30 años de experiencia en la
-                    recuperación devenvases y materias primas industriales. Contamos con líneas de procesamiento de
-                    última generación. No obstante, estamos en continua expansión con el objetivo de lograr un producto
-                    de mayor calidad, realizado con personal calificado, para satisfacer las crecientes exigencias del
-                    mercado nacional e internacional.</p>
+                    <p class="seccion-compania__texto--lg text-lg-start d-none d-lg-block ">Somos una empresa con más de
+                        30 años de experiencia en la
+                        recuperación devenvases y materias primas industriales. Contamos con líneas de procesamiento de
+                        última generación. No obstante, estamos en continua expansión con el objetivo de lograr un
+                        producto
+                        de mayor calidad, realizado con personal calificado, para satisfacer las crecientes exigencias
+                        del
+                        mercado nacional e internacional.</p>
+                </div>
 
-            </article>
+                <div class="d-flex justify-content-center col-lg-6 order-lg-first  ">
+                    <img src="./assets/images/tacho.png" alt="cesto de basura con simbolos del reciclaje"
+                        class="img-fluid text-center">
+                </div>
 
-            <article class="seccion-compania__articulo2">
-
-                <img src="./assets/images/tacho.png" alt="cesto de basura con simbolos del reciclaje"
-                    class="seccion-compania__img">
-            </article>
+            </div>
 
 
         </section>
@@ -97,36 +106,164 @@
         <!--  seccion valores -->
 
         <section class="seccion-valores">
+            <div class="container ">
 
-            <h2 class="seccion-valores__titulo">Valores</h2>
+                <h2 class="seccion-valores__titulo text-center mt-3 bg-light">Valores</h2>
 
-            <div class="col-md-4 text-center">
-                <img src="./assets/images/transparencia.png" class="seccionValores__img1"
-                    alt="logo ilustrativo de transparencia">
-                <p class="seccionValores__texto1">TRANSPARENCIA</p>
+                <div class="row contenedor border p-2 mb-2 border-opacity-50 rounded-5 shadow p-3 mb-5 rounded mx-3">
+
+                    <div class="text-center col-lg-4">
+                        <img src="./assets/images/transparencia.png" class="seccionValores__img"
+                            alt="logo ilustrativo de transparencia">
+                        <h3 class="seccionValores__texto text-center">TRANSPARENCIA</h3>
+                    </div>
+
+                    <div class=" text-center col-lg-4">
+                        <img src="./assets/images/trabajo-en-equipo.png" class="seccionValores__img"
+                            alt="logo ilustrativo de trabajo-en-equipo">
+                        <h3 class="seccionValores__texto text-center">TRABAJO EN EQUIPO</h3>
+                    </div>
+
+                    <div class="text-center col-lg-4">
+                        <img src="./assets/images/adaptabilidad.png" class="seccionValores__img"
+                            alt="logo ilustrativo de adaptabilidad">
+                        <h3 class="seccionValores__texto text-center">ADAPTABILIDAD</h3>
+                    </div>
+
+                    <div class="text-center col-lg-4">
+                        <img src="./assets/images/confianza.png" class="seccionValores__img"
+                            alt="logo ilustrativo de adaptabilidad">
+                        <h3 class="seccionValores__texto text-center">CONFIANZA</h3>
+                    </div>
+
+                    <div class="text-center col-lg-4">
+                        <img src="./assets/images/calidad.png" class="seccionValores__img"
+                            alt="logo ilustrativo de calidad">
+                        <h3 class="seccionValores__texto">CALIDAD</h3>
+                    </div>
+
+                    <div class="text-center col-lg-4">
+                        <img src="./assets/images/innovacion.png" class="seccionValores__img"
+                            alt="logo ilustrativo de innovacion">
+                        <h3 class="seccionValores__texto">INNOVACION</h3>
+                    </div>
+                </div>
+
             </div>
-            
-            <img src="./assets/images/trabajo-en-equipo.png" class="seccionValores__img2"
-                alt="logo ilustrativo de trabajo-en-equipo">
-            <p class="seccionValores__texto2">TRABAJO EN EQUIPO</p>
 
-            <img src="./assets/images/adaptabilidad.png" class="seccionValores__img3"
-                alt="logo ilustrativo de adaptabilidad">
-            <p class="seccionValores__texto3">ADAPTABILIDAD</p>
+        </section>
 
-            <img src="./assets/images/confianza.png" class="seccionValores__img4"
-                alt="logo ilustrativo de adaptabilidad">
-            <p class="seccionValores__texto4">CONFIANZA</p>
+        <!-- Seccion Servicios -->
 
-            <img src="./assets/images/calidad.png" class="seccionValores__img5" alt="logo ilustrativo de calidad">
-            <p class="seccionValores__texto5">CALIDAD</p>
+        <section class="seccionServicios container-fluid">
 
-            <img src="./assets/images/innovacion.png" class="seccionValores__img6" alt="logo ilustrativo de innovacion">
-            <p class="seccionValores__texto6">INNOVACION</p>
+            <h2 class="seccionServicios__titulo text-center bg-light mb-4">Servicios</h2>
 
+            <p class="seccionServicios__texto text-center mb-3">Nuestros procesos cuentan con una precisa trazabilidad
+                para poder
+                garantizar el seguimiento y transparencia a cada uno de nuestros clientes.
+            </p>
+
+            <div class="seccionServicios__card row justify-content-center gap-2 container-fluid m-0">
+
+                <div class="seccionCajaServicios col-lg-4 border rounded-3  text-center p-3 shadow-sm">SISTEMAS DE
+                    RECOLECCION</div>
+                <div class="seccionCajaServicios border rounded-3 text-center p-3 shadow-sm col-lg-4">RECICLADO</div>
+                <div class="seccionCajaServicios border rounded-3 text-center p-3 shadow-sm col-lg-4">TRANSPORTE</div>
+                <div class="seccionCajaServicios border rounded-3 text-center p-3 shadow-sm col-lg-4">TRATAMIENTO</div>
+                <div class="seccionCajaServicios border rounded-3 text-center p-3 shadow-sm col-lg-4">DISPOSICION FINAL
+                </div>
+                <div class="seccionCajaServicios border rounded-3 text-center p-3 shadow-sm col-lg-4">RETIRO</div>
+
+            </div>
+
+        </section>
+
+        <!-- Flyer -->
+
+        <div class="mt-4 container-fluid">
+            <img src="./assets/images/bolaReciclaje.webp" class="seccionServicios__img w-100 h-auto"
+                alt="pilas atadas de papel de diario">
+        </div>
+
+
+        <!-- Seccion Contacto -->
+        <section class="seccionContacto container-fluid justify-content-center">
+
+            <h2 class="seccionContacto__titulo text-center fw-bold mt-3">Podes contactarnos por los siguientes medios
+            </h2>
+
+            <div class="row gap-4 m-1 gap-lg-0">
+
+                <div class="border rounded-3 text-center p-3 shadow-sm col-lg-6">
+                    <i class="bi bi-envelope fs-3"></i>
+                    <h3>EMAIL</h3>
+                    <span>informacion@remaker.com.ar</span>
+                </div>
+
+
+                <div class="border rounded-3 text-center p-3 shadow-sm col-lg-6">
+                    <i class="bi bi-telefono fs-3"></i>
+                    <h3>TELEFONO</h3>
+                    <span>+54 9 11 3759-9843 <br>
+                        4650-9257</span>
+                </div>
+
+                <div class="border rounded-3 text-center p-3 shadow-sm col-lg-12 container-fluid">
+                    <h3>REDES SOCIALES</h3>
+                    <div class="d-flex justify-content-center gap-5">
+                        <i class="bi bi-instagram fs-3 mx-4"></i>
+                        <i class="bi bi-twitter fs-3 mx-4"></i>
+                        <i class="bi bi-whatsapp fs-3 mx-4"></i>
+                        <i class="bi bi-linkedin fs-3 mx-4"></i>
+                    </div>
+
+                </div>
+
+
+            </div>
 
 
         </section>
+
+
+
+
+        <!--            
+            <article class="seccionContacto__cardP1">
+                <div class="seccionContacto__card">
+                    <img src="./assets/images/email.png" class="seccionContacto__cardImg" alt="logo de email">
+                    <p class="seccionContacto__cardTitulo">EMAIL </p>
+                    <p class="seccionContacto__cardTexto">informacion@reciclaje.com</p>
+                </div>
+                <div class="seccionContacto__card">
+                    <img src="./assets/images/whatsapp.png" class="seccionContacto__cardImg" alt="logo de telefono">
+                    <p class="seccionContacto__cardTitulo">TELEFONO</p>
+                    <p class="seccionContacto__cardTexto">+54 9 11 3759-9843 <br>
+                        4650-9257
+                    </p>
+                </div>
+            </article>
+            <article class="seccionContacto__cardP2">
+                <div class="seccionContacto__card2">
+                    <p class="seccionContacto__cardTitulo">REDES SOCIALES</p>
+                    <img src="./assets/images/email.png" class="seccionContacto__logo" alt="logo de email">
+                    <img src="./assets/images/whatsapp.png" class="seccionContacto__logo" alt="logo de whatsapp">
+                    <img src="./assets/images/linkedin.png" class="seccionontacto__logo" alt="logo de linkedin">
+                    <img src="./assets/images/instagram.png" class="seccionContacto__logo" alt="logo de instagram">
+                </div>
+            </article>
+
+            <i class="bi bi-instagram"></i>
+            <div class="seccionContacto__flyer">
+                Desde nuestra empresa, adaptamos nuestros servicios a la necesidad del clientes, con una participación
+                en el retiro de los materiales y capacitaciones constantes para lograr un correcto trabajo que respete
+                las normas ambientales en cada ámbito.
+            </div>
+        </section> -->
+
+
+
 
     </main>
 

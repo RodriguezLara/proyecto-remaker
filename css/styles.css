@@ -28,9 +28,20 @@ header {
 
 }
 
+
+@media(min-width: 992px) {
+    img .seccionServicios__img { 
+        height: 20px;
+    }
+    
+}
+    
+
+
+
 /* -------Seccion compania------- */
 
-.seccion-compania {
+/* .seccion-compania {
     margin: 0;
     height: 50vh;
     justify-items: center;
@@ -103,11 +114,15 @@ header {
         grid-area: seccion-compania__titulo;
     }
 
-}
+} */
 
 /* --------Seccion Valores -------- */
 
-
+/* .contenedor {
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 50px;
+} */
 
 
 
