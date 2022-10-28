@@ -1,70 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" >
-    <title>Valores</title>
+    <title>ReMaker - Valores</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <h1>Reciclaje</h1>
+    <!--  header -->
 
-        <nav class="navBar">
-            
-            <ul>
-                <li><a href="../index.html">Inicio</a></li> 
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./valores.html">Valores</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <header class="navbar navbar-expand-lg">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#"><img src="../assets/images/logo-principall.png" alt="Logo de ReMaker"
+                    class="w-50"></a>
+
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false " aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="collapse navbar-collapse  justify-content-lg-end " id="navbarNav">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item my-1 text-center ">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item my-1 text-center">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item my-1 text-center ">
+                        <a class="nav-link" href="./valores.html">Valores</a>
+                    </li>
+
+                    <li class="nav-item my-1 text-center">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+
+                    <li class="nav-item my-1 text-center ">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+
     </header>
-    <main>
-        <section class="inicioValores">
-            <h2 class="inicioValores__titulo">Valores</h2>
-            
-              
-                <img src="../assets/images/transparencia.png" class="inicioValores__img1" alt="logo ilustrativo de transparencia">
-                <p class="inicioValores__texto1">TRANSPARENCIA</p>
-                <img src="../assets/images/trabajo-en-equipo.png" class="inicioValores__img2">
-                <p class="inicioValores__texto2">TRABAJO EN EQUIPO</p>
-                <img src="../assets/images/adaptabilidad.png" class="inicioValores__img3" alt="logo ilustrativo de trabajo-en-equipo">
-                <p class="inicioValores__texto3">ADAPTABILIDAD</p>
-                <img src="../assets/images/confianza.png" class="inicioValores__img4" alt="logo ilustrativo de adaptabilidad">
-                <p class="inicioValores__texto4">CONFIANZA</p>
-                <img src="../assets/images/calidad.png" class="inicioValores__img5" alt="logo ilustrativo de calidad">
-                <p class="inicioValores__texto5">CALIDAD</p>
-                <img src="../assets/images/innovacion.png" class="inicioValores__img6" alt="logo ilustrativo de innovacion">
-                <p class="inicioValores__texto6">INNOVACION</p>
 
-              
+    <main>
+
+        <!--  seccion valores -->
+
+        <section class="seccion-valores container my-3 my-lg-5">
+            <div class="container my-5">
+
+                <h2 class="seccion-valores__titulo text-center mt-3 bg-light">Valores</h2>
+
+                <div class="row container border p-2 mb-2 border-opacity-50 rounded-5 shadow p-lg-3 mb-lg-5 rounded mx-3">
+
+                    <div class="text-center col-lg-4">
+                        <img src="../assets/images/transparencia.png" class="seccionValores__img"
+                            alt="logo ilustrativo de transparencia">
+                        <h3 class="seccionValores__texto text-center">TRANSPARENCIA</h3>
+                    </div>
+
+                    <div class=" text-center col-lg-4">
+                        <img src="../assets/images/trabajo-en-equipo.png" class="seccionValores__img"
+                            alt="logo ilustrativo de trabajo-en-equipo">
+                        <h3 class="seccionValores__texto text-center">TRABAJO EN EQUIPO</h3>
+                    </div>
+
+                    <div class="text-center col-lg-4">
+                        <img src="../assets/images/adaptabilidad.png" class="seccionValores__img"
+                            alt="logo ilustrativo de adaptabilidad">
+                        <h3 class="seccionValores__texto text-center">ADAPTABILIDAD</h3>
+                    </div>
+
+                    <div class="text-center col-lg-4">
+                        <img src="../assets/images/confianza.png" class="seccionValores__img"
+                            alt="logo ilustrativo de adaptabilidad">
+                        <h3 class="seccionValores__texto text-center">CONFIANZA</h3>
+                    </div>
+
+                    <div class="text-center col-lg-4">
+                        <img src="../assets/images/calidad.png" class="seccionValores__img"
+                            alt="logo ilustrativo de calidad">
+                        <h3 class="seccionValores__texto">CALIDAD</h3>
+                    </div>
+
+                    <div class="text-center col-lg-4">
+                        <img src="../assets/images/innovacion.png" class="seccionValores__img"
+                            alt="logo ilustrativo de innovacion">
+                        <h3 class="seccionValores__texto">INNOVACION</h3>
+                    </div>
+                </div>
+
+            </div>
+
         </section>
-        <section class="valores__card">
-            <article class="valores__cardMision">
-                <img src="../assets/images/mision.png" alt="logo de mision">
-                <h2>MISION</h2>
-                <p>Transformar la mayor cantidad de residuos industriales en recursos: revalorizarlos y prepararlos para un uso superior en términos energéticos y de insumos biosustentables para la economía global. Construir en este camino un triple impacto positivo: social, económico y ambiental.</p>
-                
-            </article>
-            <article class="valores__cardVision">
-                <img src="../assets/images/vision.png" alt="logo de vision">
-                <h2>VISION</h2>
-                <p>Ser líderes y referentes en el mercado de servicios de residuos peligrosos a través del diseño y ejecución de proyectos que aporten soluciones específicas e innovadoras.</p>
-            </article>
+
+
+        <section class="container d-lg-flex justify-content-lg-center mt-0">
+
+            <div class="text-center container border p-2  border-opacity-50 rounded-5 shadow p-lg-3 rounded mx-3 my-5 mt-lg-0">
+                <img src="../assets/images/mision.png" alt="logo de mision" class=>
+                <h2 class="text-center mt-2 mb-4">MISION</h2>
+                <p>Transformar la mayor cantidad de residuos industriales en recursos: revalorizarlos y prepararlos para
+                    un
+                    uso superior en términos energéticos y de insumos biosustentables para la economía global. Construir
+                    en
+                    este camino un triple impacto positivo: social, económico y ambiental.</p>
+            </div>
+
+            <div class="text-center container border p-2 border-opacity-50 rounded-5 shadow p-lg-3 my-5 rounded mx-3 mt-lg-0">
+                <img src="../assets/images/vision.png" alt="logo de vision" class="">
+                <h2 class="mt-2 mb-4">VISION</h2>
+                <p>Ser líderes y referentes en el mercado de servicios de residuos peligrosos a través del diseño y
+                    ejecución de proyectos que aporten soluciones específicas e innovadoras.</p>
+            </div>
+
         </section>
+
+
         <section class="valores__final">
             <div>
                 <img src="../assets/images/mundoReciclaje.webp" alt="mundo con flechas de reciclaje">
             </div>
             <div>
-                <p>MAS DE 30 AÑOS DE EXPERIENCIA <br> 
+                <p>MAS DE 30 AÑOS DE EXPERIENCIA <br>
                     EN LA RECUPERACION DE ENVASES <br>
                     Y MATERIAS PRIMAS INDUSTRIALES</p>
             </div>
-            
+
 
 
 
@@ -73,23 +157,46 @@
 
 
     </main>
-    <footer class="footer">
-        <h2 class="footer__titulo">Reciclaje</h2>
-        <ul class="footer__listaMenu">
-            <li class="footerTitulo__listaMenu">Menu</li>
-            <li><a href="../pages/nosotros.html">Nosotros</a></li>
-            <li><a href="../pages/valores.html">Valores</a></li>
-            <li><a href="../pages/servicios.html">Servicios</a></li>
-            <li><a href="../pages/contacto.html">Contacto</a></li>
-        </ul>
-        <ul class="footer__listaContacto">
-            <li class="footerTitulo__listaContacto">Contacto</li>
-            <li>Linkedin</li>
-            <li>Instagram</li>
-            <li>Email</li>
-            <li>Whatsapp</li>
-        </ul>
-       
+    <!-- Footer -->
+
+    <footer class="container-fluid border-top p-3">
+        <div class="container d-flex flex-column align-content-center flex-lg-row">
+
+            <div class="text-center mx-lg-5 align-content-center">
+                <img src="../assets/images/logo-sin-slogan.png" alt="Logo de ReMaker">
+            </div>
+
+            <div class="text-center mx-lg-5 ">
+                <h3 class="footer__titulo ">Menu</h3>
+                <ul class="footer__menu ">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a class="text-center" href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="#">Valores</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="text-center mx-lg-5">
+                <h3 class="">Contacto</h3>
+                <ul class="footer__listaContacto">
+                    <div class="justify-content-around gap-1">
+                        <i class="bi bi-instagram fs-3 mx-2 mx-lg-4"></i>
+                        <i class="bi bi-twitter fs-3 mx-2 mx-lg-4"></i>
+                        <i class="bi bi-whatsapp fs-3 mx-2 mx-lg-4"></i>
+                        <i class="bi bi-linkedin fs-3 mx-2 mx-lg-4"></i>
+                </ul>
+            </div>
+
+        </div>
+
+        </div>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
