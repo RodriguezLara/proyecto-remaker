@@ -33,7 +33,21 @@ header {
     img .seccionServicios__img { 
         height: 20px;
     }
+
+    .valores__pie {
+        width: 90%;
+        object-fit: contain;
+    }
     
+}
+
+.valores__img {
+    width: 30%;
+}
+
+.valores__pie {
+    object-fit: contain;
+    max-height: 600px;
 }
     
 
