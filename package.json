@@ -1,0 +1,20 @@
+{
+  "name": "remaker",
+  "version": "1.0.0",
+  "description": "El proyecto trata sobre una empresa de reciclaje de los residuos de las empresas, por eso el nombre ReMaker, empezar por el final.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./scss/main.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodriguezLara/proyecto-remaker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodriguezLara/proyecto-remaker/issues"
+  },
+  "homepage": "https://github.com/RodriguezLara/proyecto-remaker#readme"
+}

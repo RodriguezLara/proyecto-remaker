@@ -1,0 +1,17 @@
+@import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./base/base";
+
+@import "./components/navbar";
+@import "./components/tarjeta";
+@import "./components/footer";
+
+@import "./pages/index";
+@import "./pages/nosotros";
+@import "./pages/servicios";
+@import "./pages/valores";
+@import "./pages/contacto";
+
+
+
