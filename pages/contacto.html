@@ -1,28 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" >
-    <title>Contacto</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ReMaker - Contacto</title>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    </head>
 <body>
-    <header>
-        <h1>Reciclaje</h1>
 
-        <nav class="navBar">
-            
-            <ul>
-                <li><a href="../index.html">Inicio</a></li> 
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./valores.html">Valores</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+        <!--  header -->
+    
+        <header class="navbar navbar-expand-lg">
+    
+            <div class="container-fluid">
+    
+                <a class="navbar-brand" href="#"><img src="../assets/images/logo-principall.png" alt="Logo de ReMaker"
+                        class="w-50"></a>
+    
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false " aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <nav class="collapse navbar-collapse  justify-content-lg-end " id="navbarNav">
+    
+                    <ul class="navbar-nav">
+    
+                        <li class="nav-item my-1 text-center ">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio
+                            </a>
+                        </li>
+    
+                        <li class="nav-item my-1 text-center">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+    
+                        <li class="nav-item my-1 text-center ">
+                            <a class="nav-link" href="./valores.html">Valores</a>
+                        </li>
+    
+                        <li class="nav-item my-1 text-center">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+    
+                        <li class="nav-item my-1 text-center ">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+    
+                    </ul>
+                </nav>
+    
+            </div>
+    
+        </header>
+
     <main>
+
+
         <section class="contacto__seccion">
             <h2>Contactanos</h2>
             <p>Gracias por visitar nuestra página web, si usted necesita información adicional sobre nuestros productos o servicios, por favor, comuníquese con nosotros.</p>
@@ -30,7 +73,7 @@
                 <form>
                     <div class="form">
                         <label for="form__nombre">NOMBRE</label>
-                        <input type="text" id="form__nombre" name="nombre" required>
+                        <input type="text" id="form__nombre" class="form-control" name="nombre" required>
                     </div>
                     <div class="form">
                         <label for="form__empresa">EMPRESA</label>
@@ -64,54 +107,93 @@
 
         </section>
     
-       <section class="inicioContacto">
-            <h2 class="inicioContacto__titulo">Podes contactarnos por los siguientes medios</h2>
-            <article class="inicioContacto__cardP1">
-            <div class="inicioContacto__card">
-                <img src="../assets/images/email.png" class="inicioContacto__cardImg" alt="logo de email">
-                <p class="inicioContacto__cardTitulo">EMAIL </p>
-                <p class="inicioContacto__cardTexto">informacion@reciclaje.com</p>
-            </div>
-            <div class="inicioContacto__card">
-                <img src="../assets/images/whatsapp.png" class="inicioContacto__cardImg" alt="logo de telefono">
-                <p class="inicioContacto__cardTitulo">TELEFONO</p>
-                <p class="inicioContacto__cardTexto">+54 9 11 3759-9843 <br>
-                    4650-9257
-                </p>
-            </div>
-            </article>
-            <article class="inicioContacto__cardP2">
-            <div class="inicioContacto__card2">
-                <p class="inicioContacto__cardTitulo">REDES SOCIALES</p>
-                <img src="../assets/images/email.png" class="inicioContacto__logo" alt="logo de email">
-                <img src="../assets/images/whatsapp.png" class="inicioContacto__logo" alt="logo de whatsapp">
-                <img src="../assets/images/linkedin.png" class="inicioContacto__logo" alt="logo de linkedin">
-                <img src="../assets/images/instagram.png" class="inicioContacto__logo" alt="logo de instagram">
-            </div>
-        </article>
-            <div class="inicioContacto__flyer">
-                Desde nuestra empresa, adaptamos nuestros servicios a la necesidad del clientes, con una participación en el retiro de los materiales y capacitaciones constantes para lograr un correcto trabajo que respete las normas ambientales en cada ámbito.
-            </div>
-        </section>
-    </main>
+        <section class="seccionContacto container-fluid justify-content-center">
 
-    <footer class="footer">
-        <h2 class="footer__titulo">Reciclaje</h2>
-        <ul class="footer__listaMenu">
-            <li class="footerTitulo__listaMenu">Menu</li>
-            <li><a href="../pages/nosotros.html">Nosotros</a></li>
-            <li><a href="../pages/valores.html">Valores</a></li>
-            <li><a href="../pages/servicios.html">Servicios</a></li>
-            <li><a href="../pages/contacto.html">Contacto</a></li>
-        </ul>
-        <ul class="footer__listaContacto">
-            <li class="footerTitulo__listaContacto">Contacto</li>
-            <li>Linkedin</li>
-            <li>Instagram</li>
-            <li>Email</li>
-            <li>Whatsapp</li>
-        </ul>
-       
-    </footer>
+            <h2 class="seccionContacto__titulo text-center fw-bold mt-3">Podes contactarnos por los siguientes medios
+            </h2>
+
+            <div class="row gap-4 m-1 gap-lg-4 justify-content-center container-fluid mt-4">
+
+                <div class="border rounded-3 text-center p-3 shadow-sm col-lg-5 justify-content-center">
+                    <i class="bi bi-envelope fs-3"></i>
+                    <h3>EMAIL</h3>
+                    <span>informacion@remaker.com.ar</span>
+                </div>
+
+
+                <div class="border rounded-3 text-center p-3 shadow-sm col-lg-5">
+                    <i class="bi bi-telefono fs-3"></i>
+                    <h3>TELEFONO</h3>
+                    <span>+54 9 11 3759-9843 <br>
+                        4650-9257</span>
+                </div>
+
+                <div class="border rounded-3 text-center p-3 shadow-sm col-lg-10 container-fluid">
+                    <h3>REDES SOCIALES</h3>
+                    <div class="d-flex justify-content-center gap-3 gap-lg-5">
+                        <i class="bi bi-instagram fs-3 mx-4"></i>
+                        <i class="bi bi-twitter fs-3 mx-4"></i>
+                        <i class="bi bi-whatsapp fs-3 mx-4"></i>
+                        <i class="bi bi-linkedin fs-3 mx-4"></i>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <!-- Flyer -->
+
+        <div class="container-fluid bg-light mt-3 text-center p-4">
+            Desde nuestra empresa, adaptamos nuestros servicios a la necesidad del clientes, con una participación en el
+            retiro de los materiales y capacitaciones constantes para lograr un correcto trabajo que respete las normas
+            ambientales en cada ámbito.
+
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="container-fluid border-top">
+            <div class="container d-flex flex-column align-content-center flex-lg-row">
+
+                <div class="text-center mx-lg-5 align-content-center">
+                    <img src="./assets/images/logo-sin-slogan.png" alt="Logo de ReMaker">
+                </div>
+
+                <div class="text-center mx-lg-5 ">
+                    <h3 class="footer__titulo ">Menu</h3>
+                    <ul class="footer__menu ">
+                        <li><a href="">Inicio</a></li>
+                        <li><a class="text-center" href="./pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="./pages/valores.html">Valores</a></li>
+                        <li><a href="./pages/servicios.html">Servicios</a></li>
+                        <li><a href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="text-center mx-lg-5">
+                    <h3 class="">Contacto</h3>
+                    <ul class="footer__listaContacto">
+                        <div class="justify-content-around gap-1">
+                            <i class="bi bi-instagram fs-3 mx-2 mx-lg-4"></i>
+                            <i class="bi bi-twitter fs-3 mx-2 mx-lg-4"></i>
+                            <i class="bi bi-whatsapp fs-3 mx-2 mx-lg-4"></i>
+                            <i class="bi bi-linkedin fs-3 mx-2 mx-lg-4"></i>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+            </div>
+        </footer>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
 </body>
 </html>
