@@ -6,6 +6,14 @@
   font-weight: 400;
 }
 
+h2 {
+  background-color: #7FD8BE;
+  color: black;
+  font-weight: 800;
+  padding: 2%;
+  text-align: center;
+}
+
 .navbar {
   background: rgb(161, 252, 223);
   background: radial-gradient(circle, rgb(161, 252, 223) 29%, rgb(127, 216, 190) 69%);
@@ -28,6 +36,11 @@
 }
 .nav-link.active {
   font-weight: 600;
+}
+
+.flyer {
+  background-color: #FCD29F;
+  text-align: center;
 }
 
 .footer {
@@ -60,19 +73,12 @@
   text-decoration: underline;
 }
 
-h2 {
-  background-color: #7FD8BE;
-  color: black;
-  font-weight: 800;
-  padding: 2%;
+.mapa #gmap_canvas {
+  width: 200px;
 }
 
-.flyer {
-  background-color: #FCD29F;
-}
-
-.mapa {
-  width: 95%;
+.form__boton {
+  background-color: #FCAB64;
 }
 
 /*# sourceMappingURL=style.css.map */

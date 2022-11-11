@@ -1,0 +1,28 @@
+.navbar {
+    background: rgb(161, 252, 223);
+    background: radial-gradient(circle, rgba(161, 252, 223, 1) 29%, rgba(127, 216, 190, 1) 69%);
+    padding: 1%;
+
+    @media (min-width:992px) {
+        background: rgb(161, 252, 223);
+        background: linear-gradient(90deg, rgba(161, 252, 223, 1) 29%, rgba(127, 216, 190, 1) 69%);
+    }
+}
+
+.nav {
+    &-link {
+        color: black;
+        font-weight: 300;
+
+        &:hover {
+            text-decoration: underline;
+
+            animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+        }
+
+        &.active {
+            font-weight: 600;
+        }
+    }
+}
