@@ -1,17 +1,78 @@
-/* Error: Undefined variable.
- *    ,
- * 19 |     border-color: $color-border;
- *    |                   ^^^^^^^^^^^^^
- *    '
- *   scss\main.scss 19:19  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 19 \2502      border-color: $color-border;\d\a    \2502                    ^^^^^^^^^^^^^\a    \2575 \a   scss\\main.scss 19:19  root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
+
+.navbar {
+  background: rgb(161, 252, 223);
+  background: radial-gradient(circle, rgb(161, 252, 223) 29%, rgb(127, 216, 190) 69%);
+  padding: 1%;
+}
+@media (min-width: 992px) {
+  .navbar {
+    background: rgb(161, 252, 223);
+    background: linear-gradient(90deg, rgb(161, 252, 223) 29%, rgb(127, 216, 190) 69%);
+  }
+}
+
+.nav-link {
+  color: black;
+  font-weight: 300;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.nav-link.active {
+  font-weight: 600;
+}
+
+.footer {
+  background: rgb(161, 252, 223);
+  background: radial-gradient(circle, rgb(161, 252, 223) 29%, rgb(127, 216, 190) 69%);
+  padding: 3%;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .footer {
+    background: rgb(161, 252, 223);
+    background: linear-gradient(90deg, rgb(161, 252, 223) 29%, rgb(127, 216, 190) 69%);
+  }
+}
+.footer__titulo {
+  text-align: center;
+}
+.footer__menu {
+  text-align: center;
+}
+.footer__menu li {
+  list-style: none;
+  text-align: center;
+}
+.footer__menu li a {
+  color: black;
+  text-decoration: none;
+}
+.footer__menu li a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  background-color: #7FD8BE;
+  color: black;
+  font-weight: 800;
+  padding: 2%;
+}
+
+.flyer {
+  background-color: #FCD29F;
+}
+
+.mapa {
+  width: 95%;
+}
+
+/*# sourceMappingURL=style.css.map */
