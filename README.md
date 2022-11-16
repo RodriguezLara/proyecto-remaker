@@ -1,7 +1,7 @@
 # ReMaker
 
 ## Proyecto para el curso de Desarollo Web de Coderhouse
-### titulo 3
+
 El proyecto trata sobre una empresa de reciclaje de los residuos de las empresas, por eso el nombre ReMaker, empezar por el final. 
 
 ```python

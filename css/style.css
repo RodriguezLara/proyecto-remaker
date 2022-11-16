@@ -23,6 +23,8 @@ h2 {
   .navbar {
     background: rgb(161, 252, 223);
     background: linear-gradient(90deg, rgb(161, 252, 223) 29%, rgb(127, 216, 190) 69%);
+    position: sticky;
+    top: 0px;
   }
 }
 
