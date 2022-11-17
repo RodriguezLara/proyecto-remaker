@@ -7,9 +7,9 @@
 }
 
 h2 {
-  background-color: #7FD8BE;
-  color: black;
-  font-weight: 800;
+  color: #7FD8BE;
+  font-size: 2.3rem;
+  font-weight: 600;
   padding: 2%;
   text-align: center;
 }
@@ -41,8 +41,11 @@ h2 {
 }
 
 .flyer {
-  background-color: #FCD29F;
+  color: white;
+  background-color: #7FD8BE;
   text-align: center;
+  font-weight: 300;
+  margin-bottom: 0px;
 }
 
 .footer {
@@ -50,6 +53,7 @@ h2 {
   background: radial-gradient(circle, rgb(161, 252, 223) 29%, rgb(127, 216, 190) 69%);
   padding: 3%;
   justify-content: center;
+  margin-top: 0;
 }
 @media (min-width: 992px) {
   .footer {
@@ -81,6 +85,54 @@ h2 {
 
 .form__boton {
   background-color: #FCAB64;
+}
+
+.rectangulo {
+  background: rgb(161, 252, 223);
+  background: linear-gradient(180deg, rgb(161, 252, 223) 27%, rgb(255, 255, 255) 28%);
+}
+.rectangulo__titulo {
+  color: white;
+  text-shadow: 4px 4px 2px rgba(127, 216, 190, 0.6);
+}
+
+.flyerFotos {
+  background: rgb(161, 252, 223);
+  background: linear-gradient(180deg, rgb(161, 252, 223) 27%, rgb(255, 255, 255) 28%);
+  text-shadow: 4px 4px 2px rgba(127, 216, 190, 0.6);
+}
+
+.contenedor {
+  background-color: white;
+  margin-top: 0;
+}
+
+.servicios_caja {
+  font-weight: 300;
+  border: 1px solid rgb(51, 207, 155);
+  border-radius: 10px;
+  box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
+  -webkit-box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
+  -moz-box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
+  margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+  .nosotros__info {
+    border: 1px solid rgb(51, 207, 155);
+    border-radius: 10px;
+    box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
+    -webkit-box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
+    -moz-box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
+    margin-bottom: 10px;
+  }
+}
+
+.servicios__texto {
+  background-color: #A1FCDF;
+  border: 30px white solid;
+  border-top: 10px white solid;
+  border-bottom: 10px white solid;
 }
 
 /*# sourceMappingURL=style.css.map */
