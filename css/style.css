@@ -16,13 +16,13 @@ h2 {
 
 .navbar {
   background: rgb(161, 252, 223);
-  background: radial-gradient(circle, rgb(161, 252, 223) 29%, rgb(127, 216, 190) 69%);
+  background: radial-gradient(circle, rgb(130, 236, 203) 29%, rgb(127, 216, 190) 69%);
   padding: 1%;
 }
 @media (min-width: 992px) {
   .navbar {
     background: rgb(161, 252, 223);
-    background: linear-gradient(90deg, rgb(161, 252, 223) 29%, rgb(127, 216, 190) 69%);
+    background: linear-gradient(90deg, rgb(130, 236, 203) 29%, rgb(127, 216, 190) 69%);
     position: sticky;
     top: 0px;
   }
@@ -41,11 +41,13 @@ h2 {
 }
 
 .flyer {
-  color: white;
+  color: black;
   background-color: #7FD8BE;
   text-align: center;
-  font-weight: 300;
   margin-bottom: 0px;
+}
+.flyer__texto {
+  font-weight: 500;
 }
 
 .footer {
@@ -53,12 +55,13 @@ h2 {
   background: radial-gradient(circle, rgb(161, 252, 223) 29%, rgb(127, 216, 190) 69%);
   padding: 3%;
   justify-content: center;
-  margin-top: 0;
+  margin: 0;
 }
 @media (min-width: 992px) {
   .footer {
     background: rgb(161, 252, 223);
     background: linear-gradient(90deg, rgb(161, 252, 223) 29%, rgb(127, 216, 190) 69%);
+    margin: 0;
   }
 }
 .footer__titulo {
@@ -84,7 +87,13 @@ h2 {
 }
 
 .form__boton {
-  background-color: #FCAB64;
+  color: #A1FCDF;
+}
+
+.modal__titulo {
+  text-align: start;
+  color: black;
+  font-weight: 300;
 }
 
 .rectangulo {
@@ -107,8 +116,9 @@ h2 {
   margin-top: 0;
 }
 
-.servicios_caja {
+.servicios__caja {
   font-weight: 300;
+  font-size: 0.9rem;
   border: 1px solid rgb(51, 207, 155);
   border-radius: 10px;
   box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
@@ -116,15 +126,23 @@ h2 {
   -moz-box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
   margin-bottom: 10px;
 }
+.servicios__titulo {
+  color: #7FD8BE;
+  text-shadow: 3px 3px 2px rgba(127, 216, 190, 0.6);
+}
 
 @media (min-width: 992px) {
+  .nosotros__presentacion {
+    font-size: 1.2rem;
+  }
   .nosotros__info {
+    font-size: 1.1rem;
     border: 1px solid rgb(51, 207, 155);
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
     -webkit-box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
     -moz-box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 
@@ -133,6 +151,37 @@ h2 {
   border: 30px white solid;
   border-top: 10px white solid;
   border-bottom: 10px white solid;
+}
+
+.seccionValores__texto {
+  font-size: 1.2rem;
+}
+
+.card__titulo {
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+}
+.card__info {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cards__titulo {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.cards__info {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

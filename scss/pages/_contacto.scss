@@ -3,5 +3,16 @@
 }
 
 .form__boton {
-    background-color: #FCAB64;
+    color: $color-primario;
+}
+
+.modal {
+    &__titulo {
+        text-align: start;
+        color: black;
+        font-weight: 300
+        
+    }
+    
+
 }

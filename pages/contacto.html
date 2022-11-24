@@ -76,21 +76,21 @@
 
             <h1 class="visually-hidden"> Contacto - Ubicacion - Redes sociales. ReMaker - Empresa de reciclaje</h1>
             <h2 class="text-center pb-2">Contactanos</h2>
-            <p class="text-center">Gracias por visitar nuestra página web, si usted necesita información adicional sobre
+            <p class="text-center px-5">Gracias por visitar nuestra página web, si usted necesita información adicional sobre
                 nuestros productos o servicios, por favor, comuníquese con nosotros.</p>
 
 
                 <div class="row container  justify-content-center  g-lg-5
                 my-3 mx-auto ">
 
-                    <article class="contacto__cardForm col-lg-6 container-fluid">
+                    <article class="form col-lg-6 container-fluid">
     
                         <div
-                            class=" border p-4 mb-2 mb-lg-0 border-opacity-50 rounded-5 shadow p-lg-3  rounded ">
+                            class=" border p-4 mb-2 mb-lg-0 border-opacity-50 rounded-4 shadow p-lg-3  rounded ">
                             <form>
                                 <div class="form">
                                     <label for="form__nombre">NOMBRE</label>
-                                    <input type="text" id="form__nombre" class="form-control" name="nombre" required>
+                                    <input type="text" id="form__nombre" class="form-control" name="nombre">
                                 </div>
                                 <div class="form">
                                     <label for="form__empresa">EMPRESA</label>
@@ -98,24 +98,41 @@
                                 </div>
                                 <div class="form">
                                     <label for="form__email">EMAIL</label>
-                                    <input type="email" id="form__email" name="email" required class="form-control">
+                                    <input type="email" id="form__email" name="email" required class="form-control" placeholder="nombre@ejemplo.com">
                                 </div>
                                 <div class="form__telefono">
                                     <label for="form__telefono">TELEFONO</label>
-                                    <input type="number" id="form__telefono" name="telefono" class="form-control">
+                                    <input type="number" id="form__telefono" name="telefono" class="form-control" placeholder="+54 9 (011) 1234-5678 " >
                                 </div>
                                 <div class="form mb-3">
                                     <label for="form__mensaje">MENSAJE</label>
-                                    <textarea name="" rows="3" cols="30" id="form__mensaje" class="form-control"></textarea>
+                                    <textarea name="" rows="3" cols="30" id="form__mensaje" class="form-control" required></textarea>
                                 </div>
-                                <div class="form__boton text-end">
-                                    <input type="submit" value="ENVIAR">
+                                <div class="form__boton p-3 text-end">
+                                    <input type="button" value="">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Enviar
+                                      </button>
+
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h1 class="modal-title modal__titulo fs-5" id="exampleModalLabel "> El formulario se ha enviado correctamente</h1>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                            
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
                                 </div>
                             </form>
                         </div>
                     </article>
     
-                    <div class="col-lg-6 container-fluid mapa  border p-4 border-opacity-50 rounded-5 shadow p-lg-3  rounded mt-3 mt-lg-0">
+                    <div class="col-lg-6 container-fluid mapa  border p-4 border-opacity-50 rounded-4 shadow p-lg-3  rounded mt-3 mt-lg-0">
                         <article
                             class="my-3 mt-4">
     

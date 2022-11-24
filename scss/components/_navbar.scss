@@ -1,11 +1,11 @@
 .navbar {
     background: rgb(161, 252, 223);
-    background: radial-gradient(circle, rgba(161, 252, 223, 1) 29%, rgba(127, 216, 190, 1) 69%);
+    background: radial-gradient(circle, rgb(130, 236, 203) 29%, rgba(127, 216, 190, 1) 69%);
     padding: 1%;
 
     @media (min-width:992px) {
         background: rgb(161, 252, 223);
-        background: linear-gradient(90deg, rgba(161, 252, 223, 1) 29%, rgba(127, 216, 190, 1) 69%);
+        background: linear-gradient(90deg, rgba(130, 236, 203, 1) 29%, rgba(127, 216, 190, 1) 69%);
         position: sticky;
         top: 0px;
         

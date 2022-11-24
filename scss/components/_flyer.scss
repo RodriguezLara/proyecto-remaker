@@ -1,8 +1,11 @@
 .flyer {
-    color: white;
+    color: black;
     background-color: $color-secundario;
     text-align: center;
-    font-weight: 300;
+    
     margin-bottom: 0px;
 
+    &__texto {
+    font-weight: 500;
+}
 }

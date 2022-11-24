@@ -32,27 +32,41 @@
     margin-top: 0;
 }
 
-.servicios_caja {
+.servicios {
+    &__caja {
     font-weight: 300;
+    font-size: 0.9rem;
+    
     border: 1px solid rgb(51, 207, 155);
     border-radius: 10px;
     box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
     -webkit-box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
     -moz-box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
-    margin-bottom: 10px;
+    margin-bottom: 10px;}
+
+    &__titulo {
+        color: $color-secundario;
+        text-shadow: 3px 3px 2px rgba(127, 216, 190, 0.6);
+
+    }
 }
 
 .nosotros {
 
     @media (min-width:992px) {
 
+        &__presentacion {
+            font-size: 1.2rem;
+        }
+
         &__info {
+            font-size: 1.1rem;
             border: 1px solid rgb(51, 207, 155);
-            border-radius: 10px;
+            border-radius: 25px;
             box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
             -webkit-box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
             -moz-box-shadow: 4px 8px 16px 0px rgba(127, 216, 190, 0.67);
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
     }
@@ -64,4 +78,47 @@
     border: 30px white solid;
     border-top: 10px white solid;
     border-bottom: 10px white solid;
+}
+
+// .img  {
+//     box-sizing: border-box;
+//     padding: 5%;
+// }
+
+
+.seccionValores__texto {
+     font-size: 1.2rem;
+ }
+
+//  tarjetas de infex contacto
+
+
+.card {
+    &__titulo {
+        font-weight: 300;
+        font-size: 1rem;
+        text-align: center;
+    }
+    &__info {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    &__titulo {
+        font-weight: 600;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    &__info {
+        text-align: center;
+        font-weight: 300;
+        font-size: 1rem;
+    }
 }
